@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body,.wrap{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    header,footer{
+        height:50px;
+        width: 100%;
+    }
+    section{
+        flex:1;
+        overflow-y: scroll;
+        .nav{
+            display:flex;
+            justify-content: space-between;
+            li{
+                width: 33%;
+                text-align: center;
+                line-height: 40px;
+            }
+        }
+        .banner{
+            width: 100%;
+            height:158px;
+            img{
+                width: 100%;
+                
+            }
+        }
+        .list_nav{
+            ul{
+                width: 100%;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                li{
+                    width: 25%;
+                    text-align: center;
+                }
+            }
+        }
+        h4{
+                line-height: 50px;
+                width: 100%;
+            }
+        .content{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+            
+            width: 100%;
+            .every{
+                width: 30%;
+                margin:0 2%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    header{
+        background: #c4483c;
+        ul{
+            height:100%;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0 10px;
+            font-size: 19px;
+            color:white;
+            .ipt{
+                width: 60%;
+                border:solid 1px #ccc;
+                text-align: center;
+                border-radius:15px;
+                background: white;
+                input{
+                    width:95%;
+                    border:none;
+                    outline:none;
+                    text-align: center;
+                }
+                
+            }
+        }
+    }
+    footer{
+        ul{
+                width: 100%;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                li{
+                    width: 25%;
+                    text-align: center;
+                }
+            }
+    }
+}
+
+

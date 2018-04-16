@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrap header, .wrap footer {
+    height: 50px;
+    width: 100%; }
+  .wrap section {
+    flex: 1;
+    overflow-y: scroll; }
+    .wrap section .nav {
+      display: flex;
+      justify-content: space-between; }
+      .wrap section .nav li {
+        width: 33%;
+        text-align: center;
+        line-height: 40px; }
+    .wrap section .banner {
+      width: 100%;
+      height: 158px; }
+      .wrap section .banner img {
+        width: 100%; }
+    .wrap section .list_nav ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px; }
+      .wrap section .list_nav ul li {
+        width: 25%;
+        text-align: center; }
+    .wrap section h4 {
+      line-height: 50px;
+      width: 100%; }
+    .wrap section .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%; }
+      .wrap section .content .every {
+        width: 30%;
+        margin: 0 2%; }
+        .wrap section .content .every img {
+          width: 100%; }
+  .wrap header {
+    background: #c4483c; }
+    .wrap header ul {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+      font-size: 19px;
+      color: white; }
+      .wrap header ul .ipt {
+        width: 60%;
+        border: solid 1px #ccc;
+        text-align: center;
+        border-radius: 15px;
+        background: white; }
+        .wrap header ul .ipt input {
+          width: 95%;
+          border: none;
+          outline: none;
+          text-align: center; }
+  .wrap footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+    .wrap footer ul li {
+      width: 25%;
+      text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
